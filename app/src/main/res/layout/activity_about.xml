@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:background="@drawable/blog_featured_healthy_foods_20180306">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Developer : https://www.linkedin.com/in/bagus-bayu-kencana-7b8a8411a/" />
+
+</RelativeLayout>
